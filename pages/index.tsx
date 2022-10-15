@@ -15,7 +15,7 @@ const Home: NextPage = () => {
           <main className={styles.main}>
               <h1 className={styles.title}>Welcome to Myselfs</h1>
               <img src={`${process.env.NEXT_PUBLIC_FAVICON}/favicon.ico`} alt="" />
-              <img src="https://scontent.fceb2-1.fna.fbcdn.net/v/t39.30808-6/295174927_2204961829664450_3190420111181056787_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeGryMmFP6ARkSwBswf9aCmjMTLx6kaa7VQxMvHqRprtVGUBxJW9R3XrF6jeCGm_Boww3BUtSWOhLyHIZYEwoxej&_nc_ohc=0D0ilCe_hx0AX-VIwfR&_nc_ht=scontent.fceb2-1.fna&oh=00_AT-LIopPJkPjt4daYJ9EGjTtHryn3DoTiYsSCqo9QyPeKA&oe=634D761B"
+              <img className='rounded-full h-[300px] w-[300px]' src="https://scontent.fceb2-1.fna.fbcdn.net/v/t39.30808-6/295174927_2204961829664450_3190420111181056787_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeGryMmFP6ARkSwBswf9aCmjMTLx6kaa7VQxMvHqRprtVGUBxJW9R3XrF6jeCGm_Boww3BUtSWOhLyHIZYEwoxej&_nc_ohc=0D0ilCe_hx0AX-VIwfR&_nc_ht=scontent.fceb2-1.fna&oh=00_AT-LIopPJkPjt4daYJ9EGjTtHryn3DoTiYsSCqo9QyPeKA&oe=634D761B"
                   alt=""
               />
           </main>
